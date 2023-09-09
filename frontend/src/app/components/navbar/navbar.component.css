@@ -1,0 +1,17 @@
+.lista{
+    width:100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin:10px 0 20px 0;
+}
+
+.lista>li{
+    margin-right: 30px;
+    list-style-type: none;
+}
+
+.lista > li > a{
+    color:darkslateblue;
+    text-decoration: none;
+}
